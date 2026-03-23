@@ -83,6 +83,7 @@ CassavaScan_AI/
 
 ## How To Run Locally
 
+```bash
 # Clone the repository
 git clone https://github.com/Kemi-creates/CassavaScan_AI.git
 cd CassavaScan_AI
