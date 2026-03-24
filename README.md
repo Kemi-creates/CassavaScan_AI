@@ -53,7 +53,7 @@ thereby, reducing crop yield loss.
 | Cassava Mosaic Disease (CMD) | 86% |
 | Healthy | 79% |
 
-The model performs strongest on CMD and Healthy — the two most common
+The model performs strongest on CMD and Healthy, the two most common
 real-world cases. Minority class detection is an area that is acknowledged to need more improvements,
 requiring more labeled training data.
 
