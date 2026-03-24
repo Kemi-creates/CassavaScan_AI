@@ -28,7 +28,7 @@ thereby, reducing crop yield loss.
 
 ## Live Demo
 
-> **[Try CassavaScan AI on Hugging Face Spaces](#)**
+> **[Try CassavaScan AI on Hugging Face Spaces](https://huggingface.co/spaces/Ukeme-creates/CassavaScan_AI)**
 > *(Link will be updated after deployment)*
 
 ## Model Performance
