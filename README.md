@@ -76,11 +76,11 @@ requiring more labeled training data.
 ## Project Structure
 CassavaScan_AI/
 │
-├── app.py                          ← Gradio web app
-├── best_cassavaguard_mobilenet.h5  ← Trained MobileNetV2 model
-├── CassavaAI_Training.ipynb        ← Full training notebook
-├── requirements.txt                ← Dependencies
-└── training_plots.png              ← Accuracy and loss curves
+├── app.py                          → Gradio web app
+├── best_cassavaguard_mobilenet.h5  → Trained MobileNetV2 model
+├── CassavaAI_Training.ipynb        → Full training notebook
+├── requirements.txt                → Dependencies
+└── training_plots.png              → Accuracy and loss curves
 
 ## How To Run Locally
 
