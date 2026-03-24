@@ -45,12 +45,12 @@ def predict(image):
     confidence = float(np.max(predictions))
     info = DISEASE_INFO[top_class]
     result = f'''
-## { if top_class == 'Healthy' else 'Beware'} {info['full_name']}
+## {'Healthy' if top_class == 'Healthy' else 'Beware'} {info['full_name']}
 **Confidence:** {confidence*100:.1f}%
 **Symptoms:** {info['symptoms']}
 **Recommended Action:** {info['action']}
 ---
-*CassavaGuard — Built for African smallholder farmers*
+*CassavaGuard — Built for African farmers*
     '''
     label_scores = {CLASS_NAMES[i]: float(predictions[i]) for i in range(5)}
     return label_scores, result
